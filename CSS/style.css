@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
+
+/* Checkout doc */
+
+h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+  
+table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  background-color: grey;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.table-row-1 td {
+  height: 30px;
+  background-color: lightgray;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.table-row-2 td {
+  height: 30px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+  
+.forname,
+.lastname,
+.email
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.forname input[type="text"] {
+  border: 3px solid rgb(207, 207, 207);
+}
+
+.lastname input[type="text"] {
+  border: 3px solid rgb(207, 207, 207);
+}
+  
+label {
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+  
+.email input[type="email"] {
+  border: 3px solid rgb(207, 207, 207);
+}
+
+.password input[type="password"] {
+  border: 3px solid rgb(207, 207, 207);
+}
+  
+.street,
+.postNumber,
+.city {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+select {
+  width: 250px;
+  border: 3px solid rgb(207, 207, 207);
+}
+
+.postNumber input[type="number"] {
+  width: 25%;
+  border: 3px solid rgb(207, 207, 207);
+}
+
+.street input[type="text"] {
+  width: 25%;
+  border: 3px solid rgb(207, 207, 207);
+}
+
+fieldset {
+  border: 3px solid rgb(201, 201, 201);
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+.payMent input [type="radio"] {
+  text-transform: capitalize;
+}
+  
+.buy-btn input[type="submit"] {
+  display: block;
+  border: 2px solid black;
+  box-shadow: 5px 5px 3px black;
+  text-align: center;
+  padding: 4px;
+  width: 180px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+/* Product details doc */
+
+.product-details {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.product-details > div {
+  flex-direction: row;
+  margin-left: 80px;
+  padding: 20px;
+}
+
+.product-details img {
+  width: 40%;
+}
+
+.product-btn {
+  background: #c1bcc4;
+  color:#fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: #c4bcc9;
+  transition: transform 0.5s;
+}
+
+.product-btn:hover{
+  transform: scale(0.9);
+}
